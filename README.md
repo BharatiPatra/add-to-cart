@@ -27,7 +27,7 @@ src/
 │ ├── productSlice.js
 │ └── cartSlice.js
 ├── App.jsx
-└── index.js
+└── main.jsx
 
 **Components Folder**
 
@@ -44,8 +44,8 @@ src/
 
 Main entry points:
 
-- `App.jsx` – Root component with Redux provider
-- `index.js` – Renders the application into the DOM
+- `App.jsx` – Root component to render the main product page
+- `main.jsx` – store provider and Renders the application into the DOM
 
 ## Application Flow
 
@@ -102,4 +102,4 @@ Main entry points:
 
 **Running the Application**
 
-- The app runs locally and listens on port 3000 by default.
+- The app runs locally and listens on port 5173 by default.
